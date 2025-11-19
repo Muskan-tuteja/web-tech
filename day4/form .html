@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      fieldset {
+        background-color: aqua;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>form</h1>
+    <form action="./index.html">
+      <label for="fname">FirstName</label>
+      <input type="text" id="fname" />
+      <br />
+      <br />
+      <label for="">Enter YOur NAME</label>
+      <input type="text" placeholder="Enter Your name" required />
+      <br /><br />
+      <label for="">Repeat Code</label>
+      <input type="text" placeholder="just a repeat" value="Html code" />
+      <br />
+      <br />
+      <label for="">Read Only</label>
+      <input
+        type="text"
+        placeholder="just a repeat"
+        value="Html code"
+        readonly
+      />
+      <br />
+      <br />
+      <label for="pass">Password</label>
+      <input type="password" placeholder="Enter Password" />
+      <br /><br />
+      <input type="radio" name="gender" value="gender" />Male
+      <input type="radio" name="gender" value="gender" />Female
+      <input type="radio" name="gender" value="gender" />Other <br /><br />
+      <input type="date" name="" id="" />
+      <br /><br />
+      <input type="email" placeholder="Enter the Email" />
+      <br /><br />
+      <input type="tel" placeholder="Enter the Phon" />
+      <br /><br />
+      <input type="number" placeholder="Phone" />
+      <br /><br />
+      <input type="checkbox" name="" id="" />Html
+      <input type="checkbox" name="" id="" />css
+      <input type="checkbox" name="" id="" />js <br /><br />
+      <fieldset>
+        <legend>not used</legend>
+        <input type="range" name="" id="" min="10" max="90" />
+      </fieldset>
+
+      <br />
+      <br />
+      <textarea name="" id="" rows="4" cols="5">Enter the Address</textarea>
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Button</legend>
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+      </fieldset>
+      <br>
+      <br>
+      <input type="file" name="" id="">
+      <br>
+      <br>
+      <label for="Country"></label>
+      <select name="" id="Country">Counter
+        <option value="">in</option>
+        <option value="">us</option>
+        <option value="">ik</option>
+        <option value=""></option>
+      </select>
+    </form>
+  </body>
+</html>
