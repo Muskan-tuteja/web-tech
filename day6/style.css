@@ -1,0 +1,58 @@
+.btn2{
+  color: aqua;
+  background-color: black;
+}
+.btn2:hover{
+  color: black;
+  background-color: red;
+}
+.btn3{
+  background-color: blue;
+}
+.btn3:active{
+  background-color: pink;
+  border:10px;
+}
+input:checked+label{
+  background-color: blue;
+  color: brown;
+}
+/* pseudo element */
+.lo::first-letter{
+  color: red;
+
+}
+.lo::selection{
+  background-color: rgb(85, 255, 0);
+
+}
+.lo::first-letter{
+  color: red;
+
+}
+input:required{
+  color: rebeccapurple;
+}
+input[required]{
+  color: rebeccapurple;
+}
+input[type="email"]{
+  background-color: blue;
+}
+.con{
+  background-color: rgb(183, 255, 0);
+  border: 10px;
+  color: black;
+  font-size: large;
+  /* padding: 10px 20px 30px 50px; top right bottom left */
+  /* padding: 10px 20px ; top&bottom left&right */
+  padding: 10px;
+
+}
+span{
+  color: blue;
+  border-radius: 10px solid black;
+  border: 10px;
+  height: 100px;
+
+}
