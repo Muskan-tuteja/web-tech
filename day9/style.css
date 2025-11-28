@@ -1,0 +1,81 @@
+.contanier {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(1, fr);
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.ChildBox {
+  background-color: white;
+  border: 1px solid black;
+}
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.box2 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.grid {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.child {
+  background-color: white;
+  border: 1px solid black;
+}
+.boxx1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.boxx2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.boxx3 {
+  grid-row: 2/4;
+  grid-column: 4/5;
+}
+.parent{
+  width: 500px;
+  height: 400px;
+  background-color: blue;
+   border-radius: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+
+
+}
+.biche{
+  background-color: aliceblue;
+  border:2px solid palevioletred;
+}
+.boiy1{
+ grid-row-start: 1;
+  grid-row-end: 3;
+}
+.boiy2{
+   grid-row-start: 3;
+  grid-row-end: 4;
+
+}
+

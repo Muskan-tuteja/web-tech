@@ -1,0 +1,17 @@
+.parent{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: yellow;
+  border: 2px solid white;
+   display: flex;
+}
+
+
+.child{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+ 
+}
