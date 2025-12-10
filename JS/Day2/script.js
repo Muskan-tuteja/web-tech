@@ -135,7 +135,8 @@ console.log(first)
 
 
 //! type casting :convesion of one data type into another data type is called type casting. 
-//? Implicit type casting : 
+//? Implicit type casting :  if type casting is done automatically by the js ,it is called implicit.
+
 
 // console.log(10+10)
 // console.log(10+"10")
@@ -171,7 +172,8 @@ console.log(first)
 // console.log(typeof null + 5)
 // console.log(5 + true - "2")
 
-//!explicit:
+//?explicit:if typeCasting is done
+
 //let str = string(123456)
 // console.log(typeof str)
 

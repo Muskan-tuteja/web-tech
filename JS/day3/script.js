@@ -39,8 +39,16 @@ function abc()
 //~ Moving the variables to the top of its scope is called hosting declaration.
 
 
-// if the variable,is declared by using var, we'll get the output as undefined.
-// if the variable is declared by using et and const, we'll get uncaught references error, because the variable want into the dead zone, which is known as tdz(temporal dead zone) 
+//? if the variable,is declared by using var, we'll get the output as undefined.
+//? if the variable is declared by using et and const, we'll get uncaught references error, because the variable want into the dead zone, which is known as TDZ(temporal dead zone) 
+  console.log(a);          // undefined
+  console.log(b);         // it will throw Uncaught ReferenceError
+  console.log(c);
+
+  var a = 10;
+  let b = 20;
+  const c = 30;
+
 
 
 // Red (!)
