@@ -1,7 +1,8 @@
 console.log("hello");
 // alert("hiii");
 
-// operators: it is used yo perform operations in js.
+//! operators: it is used yo perform operations in js.
+//^ typeof Operator : It is used for checking the type of the data, which type of data you are using.
 //~ == ,===
 
 console.log(2 == "2")
@@ -46,28 +47,40 @@ console.log(typeof bigData)
 // console.log(syb1 === syb2) 
 // console.log(typeof syb1)
 
+//! Non-Primitive Datatype / Mutable  : 
+//~ functions
+// function sum(){
+    // body of funtion
+// }
+// console.log(typeof sum) // function
+//~ array
+// let arr = []
+// console.log(typeof arr) // object
+//~ object
+// let obj = {}
+// console.log(typeof obj) // object
+
+
+// console.log(typeof NaN)
+
+// let x = null;
+// let xyz ;
+// console.log(xyz)
+
+
+
+// let sym1 = Symbol("a")
+// let sym2 = Symbol("a")
+
+// console.log(sym1 == sym2)
+// console.log(sym1 === sym2)
+
 
 //~ null vs undefined
 
 //* null- it is assigned as a value , which represent the absence of the value.
 //* undefined- when the variable is declared, but value is not assigned to the variable then we'll get undefined.
     
-//^ non-primitive/mutable : which cannot be changed.
-
-//& 1.function 
-function abc1(){
-    console.log("function")
-}
-abc1()
-console.log(typeof abc1)
-
-//& 2.Array
-let arr = []
-console.log(typeof arr)
-
-//& 3.object
-let aobj = {}
-console.log(typeof obj)
 
 
 
@@ -113,60 +126,12 @@ console.log(first)
 // console.log(a==b)
 // console.log(a===b)
 
-//^ typeof Operator : It is used for checking the type of the data, which type of data you are using.
-
-
-//& Primitive Datatypes :
-
-//~ number
-// let no = 1000;
-// console.log(typeof no) // number
-//~ string
-// let str = "abc"
-// console.log(typeof str) // string
-//~ boolean
-// let bool = true
-// console.log(typeof bool)
-//~ null
-// let abc = null
-// console.log(typeof abc)
-//~ undefined
-// console.log(typeof undefined)
-//~ bigInt
-// let bigNo = 17n
-// console.log(typeof bigNo)
-//~ Symbol
-// let sym = Symbol("a")
-// console.log(typeof sym)
-
-
-//! Non-Primitive Datatype / Mutable  : 
-//~ functions
-// function sum(){
-    // body of funtion
-// }
-// console.log(typeof sum) // function
-//~ array
-// let arr = []
-// console.log(typeof arr) // object
-//~ object
-// let obj = {}
-// console.log(typeof obj) // object
-
-
-// console.log(typeof NaN)
-
-// let x = null;
-// let xyz ;
-// console.log(xyz)
 
 
 
-// let sym1 = Symbol("a")
-// let sym2 = Symbol("a")
 
-// console.log(sym1 == sym2)
-// console.log(sym1 === sym2)
+
+
 
 
 //! type casting :convesion of one data type into another data type is called type casting. 

@@ -1,5 +1,3 @@
-
-
 //!scope in js : accessibility and availability of a variable inside js file 
 //? types of scopes
 //^1 global scope: if the variable is declared by using var, the scope of the variable is in the global scope
@@ -53,9 +51,3 @@ function abc()
 // Purple (~)
 // Mustard (todo)
 // Grey (//)
-var a =10
-let b =20
-const c =34;
-console.log(a)
-console.log(b)
-console.log(c)
