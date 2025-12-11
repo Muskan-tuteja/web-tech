@@ -18,7 +18,8 @@
 // let i =0
 
 //! Function: it is a reusable block of code,which is used to avoid the code repetition in our Program.
-//? it helps us to follow the DRY
+//? It helps us to follow the DRY pricipal. (Don't repeat yourself)
+
 
 // structure //&(Function -> keyword , abc-> identifier)
 // function abc(){
