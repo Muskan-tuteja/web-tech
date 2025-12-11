@@ -1,10 +1,20 @@
-
+//! conditional Statements : sometimes we might hava to execute a block of code based off some condition.
 //!Decision statement
-    //?if
-    //?if-else
-    //?else-if
-    //?switch
-    //?ternary
+ //?1.if:the if statement in js looks like this.the if statement evaluates the conditions inside the()
+//  if(condition){
+//   //execute this code
+//  }
+//?2.if-else: the if statement can have an optional alse clause. the sysntax looks something we this
+    // if(condition){
+    //   //block of code if condition true
+    // }
+    // else{
+    //   // block of code if condition false
+    // }
+
+//?3.else-if
+//?4.switch
+//?5.ternary:shorter way of writing the if-alse statement.
         //~ if
                 // let data = 100
                 // if(data == 100){
