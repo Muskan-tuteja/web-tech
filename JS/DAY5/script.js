@@ -49,7 +49,7 @@
 
 // }
 
-//! IIFE(immediate invoke function expression) : After creating the function,immediately we're invoking the function. it helps us to avoid the global varibale pollution.
+//! IIFE(immediate invoke function expression) : After creating the function,immediately we're invoking the function. it helps us to avoid the global varibale pollution.(gvp: )
 
 // (function (){
 //   console.log("IIFE")
