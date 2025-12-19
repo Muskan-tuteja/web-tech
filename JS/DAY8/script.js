@@ -14,7 +14,7 @@
 // console.log(str.charAt(0))
 
 // 
-// //~ charCodeAt(): Returns the Unicode value of the character at the specified location.
+// //~ charCodeAt(): Returns the Unicode value of the character at the specified location.(ASCII)
 // console.log(str.charCodeAt(0))
 
 //! ways on extracting sequence of character from the string

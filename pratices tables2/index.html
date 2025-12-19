@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Department Project Table</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<table>
+    <!-- Header -->
+    <tr>
+        <th rowspan="2">Department</th>
+        <th rowspan="2">Team Lead</th>
+        <th colspan="3">Project Details</th>
+        <th rowspan="2">Employee Skills</th>
+    </tr>
+    <tr>
+        <th>Project Name</th>
+        <th>Duration</th>
+        <th>Status</th>
+    </tr>
+
+    <!-- Web Development Row -->
+    <tr>
+        <td rowspan="2">Web Development</td>
+        <td rowspan="2">Rahul Sharma</td>
+        <td>Corporate Website</td>
+        <td>6 Months</td>
+        <td>Completed</td>
+        <td rowspan="2">
+            <ul>
+                <li><b>HTML</b>
+                    <ul>
+                        <li>Forms</li>
+                        <li>Tables</li>
+                        <li>Semantic Tags</li>
+                    </ul>
+                </li>
+                <li><b>CSS</b>
+                    <ul>
+                        <li>Flexbox</li>
+                        <li>Grid</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </li>
+                <li><b>JavaScript</b></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>E-Commerce App</td>
+        <td>8 Months</td>
+        <td>Running</td>
+    </tr>
+
+    <!-- QA Team Row -->
+    <tr>
+        <td>QA Team</td>
+        <td>Neha Verma</td>
+        <td colspan="3">
+            <table class="nested-table">
+                <tr>
+                    <th>Test Type</th>
+                    <th>Tool</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>Manual Testing</td>
+                    <td>TestRail</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Automation</td>
+                    <td>Selenium</td>
+                    <td>Pass</td>
+                </tr>
+                <tr>
+                    <td>Performance</td>
+                    <td>JMeter</td>
+                    <td>Pending</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <ol>
+                <li>Bug Tracking
+                    <ol>
+                        <li>JIRA</li>
+                        <li>Bugzilla</li>
+                    </ol>
+                </li>
+                <li>Test Case Writing</li>
+                <li>Regression Testing</li>
+            </ol>
+        </td>
+    </tr>
+
+    <!-- Note -->
+    <tr>
+        <td colspan="6" class="note">
+            Note: This table demonstrates nested tables, nested lists, rowspan, colspan and real-world layout usage.
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

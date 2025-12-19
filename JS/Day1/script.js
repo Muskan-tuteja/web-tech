@@ -27,17 +27,17 @@ console.log("js");
 // var- javaScript
 //let,const- ecmaScript
 
-// var
-// declaration
-// var a;
-// //? initialization
-// a = 2134;
-// //? declaration and initialization(same line)
-// var abc = 2345;
-// //? re-declaration
-// var abc;
-// //? re-initialization
-// abc = 78788;
+//var
+declaration
+var a;
+//? initialization
+a = 2134;
+//? declaration and initialization(same line)
+var abc = 2345;
+//? re-declaration
+var abc;
+//? re-initialization
+abc = 78788;
 
 //let
 let a;

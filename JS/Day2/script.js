@@ -3,7 +3,8 @@ console.log("hello");
 
 //! operators: it is used yo perform operations in js.
 //^ typeof Operator : It is used for checking the type of the data, which type of data you are using.
-//~ == ,===
+//~ == :it check the value only
+// ===: it check the value and type
 
 console.log(2 == "2")
 console.log(2 === "2")
