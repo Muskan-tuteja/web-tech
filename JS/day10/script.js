@@ -63,8 +63,9 @@ arr.push(6,7,8,9)
 // console.log(res)//?10..>lenght of the
 
 //~pop(): it is used for Removes the last element from an array and returns it.
+
+//? it modified the original array and returns the deleted element
 let res = [20, 30, 40];
 res.pop();
 console.log(res);
 
-//? it modified the original array and returns the deleted element
