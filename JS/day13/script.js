@@ -78,6 +78,6 @@ obj.id = 2;
 console.log(obj);
 
 
-//
+//?DELETED ID
 delete obj.id;
 console.log(obj);
