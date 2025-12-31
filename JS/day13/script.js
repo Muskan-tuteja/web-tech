@@ -1,45 +1,69 @@
-//? objects: objects are the no primtive data type .which used to stor the data in the form the key value paries key and value paries are spearty by colon key value paries togther is ni as poperty
+//! objects
+//? objects are entities
+//? are non primitive data(i.e mutable) type which is used to stored the data in the form of key and value pair .
+//?  key and value pair are seprated by the colon
+//? key and value pair together  is known  properties
+//? 2 properties are seprate by  " ,"  
 
-//? tro property are , 
 
+//~ According to data of object
+//~ keys  eg =  id , eName , sal,isMarried etc
+//~ value = 1, Anjali , 94567 , false , null etc 
+//~ property = keys + value             eg =   id: 1   ,     eName : "Anjali" etc
+//~ key and pair is seprated by colon i.e  " : "
 let obj = {
-  id: 1,
-  eName: "Muskan",
-  sal:12000,
-  isMarried: false,
-  skills: ["JS","SQL","css",["kinm","hggyhgu"]],
-  printName:()=>{
-    console.log("my name is muskan")
-  },
-  address:{
-    pincode: 12356,
-    street: "njugnk",
-    insideAdress:{
-      houseNo:100,
-      printAdd:()=>{
-        console.log("Gopal is house")
-      }
+    id: 1 ,
+    eName : "Anjali" ,
+    sal:94567 ,
+    isMarried :false,
+    isDeveloper : null ,
+    skills : ["js","java",["cooking","sdfghgfd"]],
+    printName : ()=>{
+        console.log("my name is anjali");
+    },
+    address : {
+        pincode : 123434,
+        street : "punjabi market",
+        insideAddress : {
+            houseNo : 1233,
+            printAdd : ()=> {
+                console.log("ANJALI'S HOUSE")
+            }
+        }
     }
-  }
-
 }
 
+
+
+//! Read
 // console.log(obj)
-// console.log(obj.printName())
+// console.log(obj.id)
+// console.log(obj.isMarried)
+// console.log(obj.skills)
+// console.log(obj.skills[1])
+// console.log(obj.skill[4][0])
 // obj.printName()
-// console.log(obj.address.insideAdress.houseNo)
-console.log(obj.skills[1])
-console.log(obj.skills[2][1])
+// console.log(obj.address.street)
+// console.log(obj.address.insideAddress.houseNo)
+// obj.address.insideAddress.printAdd()                    //() = by this we invoke also , don't use clg coz it doesn't "return " keyword use so give result as well as "undefined"
 
-//!Read : is a object
 
-//!Update
 
-console.log(obj)
-obj.eName="mahi"
-console.log(obj)
-obj.address.insideAdress.houseNo=200
-console.log(obj)
-//!deleted : 
-delete obj.eName
-console.log(obj)
+//!   Update
+
+// console.log(obj)                    //y phle jo value h wo
+// obj.eName = "abc"                   //add updated value              isme output result m change ayga
+// console.log(obj)
+
+
+// console.log(obj)                  
+// obj.address.insideAddress.houseNo = 234567                  
+// console.log(obj)                                         //isme before and after dono m change hoga houseno y cocept sir baad m smjhyng shallow copy / deepcopy concept
+
+
+
+//! Delete
+
+// delete obj.eName
+// delete obj.address
+// console.log(obj)
