@@ -10,27 +10,28 @@
 //~ value = 1, Anjali , 94567 , false , null etc
 //~ property = keys + value             eg =   id: 1   ,     eName : "Anjali" etc
 //~ key and pair is seprated by colon i.e  " : "
-// let obj = {
-//     id: 1 ,
-//     eName : "Anjali" ,
-//     sal:94567 ,
-//     isMarried :false,
-//     isDeveloper : null ,
-//     skills : ["js","java",["cooking","sdfghgfd"]],
-//     printName : ()=>{
-//         console.log("my name is anjali");
-//     },
-//     address : {
-//         pincode : 123434,
-//         street : "punjabi market",
-//         insideAddress : {
-//             houseNo : 1233,
-//             printAdd : ()=> {
-//                 console.log("ANJALI'S HOUSE")
-//             }
-//         }
-//     }
-// }
+let obj = {
+    id: 1 ,
+    eName : "Anjali" ,
+    sal:94567 ,
+    isMarried :false,
+    isDeveloper : null ,
+    skills : ["js","java",["cooking","sdfghgfd"],["mkihb","jjbhg"]],
+    printName : ()=>{
+        console.log("my name is anjali");
+    },
+    address : {
+        pincode : 123434,
+        street : "punjabi market",
+        insideAddress : {
+            houseNo : 1233,
+            printAdd : ()=> {
+                console.log("ANJALI'S HOUSE")
+            }
+        }
+    }
+}
+console.log(obj.skills[3])
 
 //! Read
 // console.log(obj)
@@ -38,7 +39,7 @@
 // console.log(obj.isMarried)
 // console.log(obj.skills)
 // console.log(obj.skills[1])
-// console.log(obj.skill[4][0])
+console.log(obj.skills[4][0])
 // obj.printName()
 // console.log(obj.address.street)
 // console.log(obj.address.insideAddress.houseNo)
@@ -61,23 +62,23 @@
 // console.log(obj)
 
 //! Pratices HW
-let obj = {
-  id: 1,
-  eName: "Muskan",
-  class: "Cse",
-  Skill: ["Html", "Css", ["Mahi", "mkih", "mkoli"]],
-  printOdd: () => {
-    console.log("i am muskan");
-  },
-};
+// let obj = {
+//   id: 1,
+//   eName: "Muskan",
+//   class: "Cse",
+//   Skill: ["Html", "Css", ["Mahi", "mkih", "mkoli"]],
+//   printOdd: () => {
+//     console.log("i am muskan");
+//   },
+// };
+// // console.log(obj);
+// // console.log(obj.Skill[2][2])
+// // console.log(obj.printOdd())
+// // obj.printOdd()
+// obj.id = 2;
 // console.log(obj);
-// console.log(obj.Skill[2][2])
-// console.log(obj.printOdd())
-// obj.printOdd()
-obj.id = 2;
-console.log(obj);
 
 
-//?DELETED ID
-delete obj.id;
-console.log(obj);
+// //?DELETED ID
+// delete obj.id;
+// console.log(obj);
