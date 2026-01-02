@@ -1,4 +1,4 @@
-//! Literal's way
+//! Literal's way:In JavaScript, object literal is the simplest and most common way to create an object.
 
 // let obj ={
 //     id : 1,
@@ -6,7 +6,7 @@
 //     sal : 12345 
 // }
 
-//! Consructor's way
+//! Consructor's way : In JavaScript, constructor way means creating objects using a constructor function with the new keyword.
 
 let obj = new Object({id : 1, eName : "abc", sal : 12345})
 // console.log(obj)
