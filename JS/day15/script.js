@@ -4,25 +4,23 @@
 //   this.empId =Id;
 //   this.empName =eName;
 //   this.empSal =sal,
-  
 
 // }
 // let obj = new consFn(1,"abc0",1234566)
 // console.log(obj)
 
-//! This keyword : its is a pointing  .it will to the object 
+//! This keyword : its is a pointing  .it will to the object
 
-//? use-Strict: the purpose of used strict id   that code 
+//? use-Strict: the purpose of used strict id   that code
 
 // a =100
-// console.log(a)//hosting is not possible 
+// console.log(a)//hosting is not possible
 
 // "use Strict"
 // function abc(){
 //   console.log(this)//window,undefined
 // }
 // abc()//~ under non strict mode inside a function. the "this"    the value of the this keyword will bi undefined
-
 
 //!Function and Arrow Function
 
@@ -61,11 +59,13 @@
 //   arrow()
 // }
 // Test()
-(function(){
-  let x =(y =10)
-})()
-console.log(typeof x)
-console.log(typeof y)
-console.log(y)
-console.log(x)
 
+//?anynoums function
+(function () {
+  let x = (y = 10);
+  console.log(x);
+})();
+console.log(typeof x);
+console.log(typeof y);
+console.log(y);
+// console.log(x);
