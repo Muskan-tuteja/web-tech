@@ -24,9 +24,9 @@
 // // let res = fn()
 // // console.log(res)//& only 1 return
 
-// // ^ generative function: A generator function in js is a special type of function that can pause its execution and resume later. producing multiple values one by one on demand.
-// //yield: the yield keyword is used inside the generator function to pause exection.
-// //next(): it resumes the genertor's execution until the next yield or return statement.
+// ^ generative function: A generator function in js is a special type of function that can pause its execution and resume later. producing multiple values one by one on demand.
+//yield: the yield keyword is used inside the generator function to pause exection.
+//next(): it resumes the genertor's execution until the next yield or return statement.
 
 // //~ The next() method returns an object with two properties.
 // //& value: The value produced by the yield or return statement.

@@ -73,12 +73,12 @@
 //!It is used to iterate and modify the array
 //! It does not affect the original array
 //! It return boolean value , if we're checking the condition and it return true for the elements who passes the conditi, and false or those element who doesnot passes the condn
-// let arr = [10,20,300,10,50,299]
-// let res = arr.map((val)=>{
-//     return val+1000
-// })
-// console.log(res)
-// console.log(arr)
+let arr = [10,20,300,10,50,299]
+let res = arr.map((val)=>{
+    return val+1000
+})
+console.log(res)
+console.log(arr)
 
 
 // let arr = [10,20,300,10,50,299]
