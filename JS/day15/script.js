@@ -1,4 +1,8 @@
-//! Constructor Function
+//! Constructor Function:The function name starts with a Capital letter
+
+//!It is called using the new keyword
+
+//!this refers to the current object
 
 // function consFn(Id,eName,sal){
 //   this.empId =Id;
@@ -130,7 +134,7 @@ function strictfn() {
 
  // & summary : In strict mode, this behaves differently compared to non-strict mode. In regular functions, this is undefined in strict mode when not called as a method of an object, while in non-strict mode, it points to the global object. Arrow functions do not have their own this and inherit it from the surrounding lexical context regardless of strict mode.
 
- // nested function and this keyword
+ // nested function and this keyword : When a function is defined inside another function, it is called a nested function.
  let obj2 = { //^ difference in making function in var and let ? - both var and let can be used to declare functions, but let has block scope while var has function scope. using let can help avoid hoisting issues and unintended global variable creation. In simple words- var creates variables that are accessible throughout the entire function, while let creates variables that are only accessible within the block they are defined in.
     name : "xyz",
     outerfn : function() {

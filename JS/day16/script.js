@@ -45,6 +45,7 @@ let obj ={
 
 
 
+
 //?method are two type of divide (String)
 // static method
 // console.log(typeof String)
