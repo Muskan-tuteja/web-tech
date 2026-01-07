@@ -22,7 +22,7 @@
 // })
 // console.log(obj)
 //!Object Methods
-//~Object.Keys(): Returns the names of the enumerable string properties and methods of an object.
+//~Object.Keys(): Returns the names of the enumerable(inumrable) string properties and methods of an object.
 let obj ={
   id:1,
   eName:"muskab",
@@ -36,11 +36,10 @@ let obj ={
 // console.log(arrObj)
 //~Object.fromEnteries():Returns an object created by key-value entries for properties and methods
 // console.log(Object.fromEntries([["id",1],["ename","abc"]]))
-
 //~object freeze:Prevents the modification of existing property attributes and values, and prevents the addition of new properties,prevents the deletion of properties
 // Object.freeze(obj)//not user crud
 //~object seal:Prevents the modification of attributes of existing properties, and prevents the addition of new properties,and prevents deletion of properties
-// Object.seal(obj)// update only used 
+Object.seal(obj)// update only used 
 
 
 

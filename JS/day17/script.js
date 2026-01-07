@@ -1,27 +1,27 @@
 //~Method Object
 
-// let obj = {
-//   id:1,
-//   eName : "muskan",
+let obj = {
+  id:1,
+  eName : "muskan",
 
-// }
-//!Object.isFrozen:Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.
-// Object.freeze(obj)
-// console.log(Object.isFrozen(obj))
+}
+//!Oboject.isFrozen:Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.
+Object.freeze(obj)
+console.log(Object.isFrozen(obj))
 
 //!Object.isSealed: Returns true if existing property attributes cannot be modified in an object and new properties cannot be added to the object.
 // Object.seal(obj)
 // console.log(Object.isSealed(obj))
 
 //!Object assign : Copy the values of all of the enumerable own properties from one or more source objects to a target object. Returns the target object.
-let obj = {
-  id:1,
-  eName : "muskan",
+// let obj = {
+//   id:1,
+//   eName : "muskan",
 
-}
+// }
 //?let newObj = Object.assign(target,source)
-let newObj = Object.assign({},obj)
-console.log(newObj)
+// let newObj = Object.assign({},obj)
+// console.log(newObj)
 // let newObj2 = Object.assign([],obj)
 // console.log(newObj2)
 
@@ -35,7 +35,7 @@ console.log(newObj)
 //   true:"boleean"
 
 // } 
-//!for-in
+//!for-in:for...in loop is used to iterate over the keys of an object in JavaScript.
 // for(let key in obj){
 //   console.log(key)
 // }for(let a in obj){
@@ -70,3 +70,4 @@ console.log(newObj)
 //   console.log(Val,indx,element)
 
 // })
+
