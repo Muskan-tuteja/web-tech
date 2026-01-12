@@ -94,6 +94,6 @@ res()// Bound
 
 //~ the call method is used to invoke a function immediately while explicitely especifying what the this keywoard should refers to.it accepts arguments individually (comma seperated),
 
-//~ the apply method is similar to call method, but it accepts the arguments in the array. it also immediately ecutes the function.
+//~ the apply method is similar to call method, but it accepts the arguments in the array. it also immediately executes the function.
 
 //~ the bind method does not immediate execute the function, it return a new function , which you can call multiple times.
