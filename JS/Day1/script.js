@@ -19,38 +19,38 @@
 // 5. weakly or loosly typed language: it means semicolon is not mandatory, but if u are writting multiple statements in the same line then, you have to put semicolon.
 
 
-console.log("js");
+// console.log("js");
 
-// var abc = 200;          // variable,identifier,operator,data-1.primitive 2.non-primitive
+// // var abc = 200;          // variable,identifier,operator,data-1.primitive 2.non-primitive
 
-//variable- are just like conatiner which is used to store the data. in js, we have three types of variable-var,let,const.
-// var- javaScript
-//let,const- ecmaScript
+// //variable- are just like conatiner which is used to store the data. in js, we have three types of variable-var,let,const.
+// // var- javaScript
+// //let,const- ecmaScript
 
-//var
-declaration
-var a;
-//? initialization
-a = 2134;
-//? declaration and initialization(same line)
-var abc = 2345;
-//? re-declaration
-var abc;
-//? re-initialization
-abc = 78788;
+// //var
+// declaration
+// var a;
+// //? initialization
+// a = 2134;
+// //? declaration and initialization(same line)
+// var abc = 2345;
+// //? re-declaration
+// var abc;
+// //? re-initialization
+// abc = 78788;
 
-//let
-let a;
-// initialization
-a = 2134;
-// declaration and initialization(same line)
-var abc = 2345;  
-// re-initialization
-abc = 78788;
+// //let
+// let a;
+// // initialization
+// a = 2134;
+// // declaration and initialization(same line)
+// var abc = 2345;  
+// // re-initialization
+// abc = 78788;
 
-//const
-// declaration and initialization(same line)
-var abc = 2345;
+// //const
+// // declaration and initialization(same line)
+// var abc = 2345;
 
 
 
@@ -61,3 +61,7 @@ var abc = 2345;
 // 3.spaces are not allowed.
 // 4. reserved keywords are not allowed.
 //it is a case-sensitive lang.which means x and X are treated differently.
+
+a=100;
+var a = 1000
+console.log(a)

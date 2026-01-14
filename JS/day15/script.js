@@ -168,3 +168,6 @@ function strictfn() {
     })()
     console.log(typeof x)         //undefined
     console.log(typeof y) 
+
+    // do while loop :exit
+    // while loop :entery

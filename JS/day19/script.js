@@ -37,4 +37,5 @@ let newObj =structuredClone(obj)
 
 //!2nd way
 //?parse: Converts a JavaScript Object Notation (JSON) string into an object.A valid JSON string.
+let newObj =JSON(JSON.stringify(obj))
 let newObj =JSON.parse(JSON.stringify(obj)) //!JSON.stringify converts an object into a JSON string.Therefore, a deep copy is created.

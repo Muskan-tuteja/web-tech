@@ -68,7 +68,7 @@
 // })
 // console.log(res) 
 
-
+//? array method 
 //! map
 //!It is used to iterate and modify the array
 //! It does not affect the original array
@@ -110,6 +110,7 @@ console.log(arr)
 //! It returns single value .It accept two arguements i.e callback fn, and initial value.
 //! If we're not passing any initial val,then accumulator bocomes 0.
 //! It doesn't affecs the original array.
+//! initialVal optional
 
 // let arr=[1,2,3,4,5,6]
 //let totalPrice = arr.reduced(useCallback,initialVal)
