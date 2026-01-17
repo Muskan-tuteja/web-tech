@@ -4,16 +4,234 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body>
-  <div class="makeFlex hrtlCenter prependTop5 appendBottom30"><a data-cy="mmtLogo" class="mmtLogo makeFlex"><img src="https://promos.makemytrip.com/Growth/Images/1x/mmt_dt_top_icon.png" alt="Make My Trip"></a><ul class="userSection pushRight"><li class="makeFlex hrtlCenter quickAccessTile" data-cy="listYourProperty" data-testid="listYourProperty"><span class="quickAccessIconWrapper"><span class="landingSprite listYourPropertyIcon" aria-hidden="true"></span></span><div class="styles__TextColumn-sc-3oig6s-0 hpHwOV quickAccessText latoBold listYourPropertyDivWidth"><p class="styles__TitleText-sc-3oig6s-1 dHfQuv">List Your Property</p><p class="styles__SubtitleText-sc-3oig6s-2 fgLmOh">Grow your business!</p></div></li><li data-cy="myBiz" class="makeFlex perfectCenter makeRelative myBizIntro" id="showBizUpgradePopup"><span data-cy="myBizIcon" class="appendRight10 landingSprite myBizIcon">&nbsp;</span><div class="appendRight5"><p class="whiteText"><span data-cy="myBizText" class="latoBold">Introducing myBiz</span></p><p data-cy="myBizSubText" class="font10 whiteText">Business Travel Solution</p></div></li><li class="makeFlex hrtlCenter quickAccessTile lhWishlist"><span data-tooltip-id="wishlistBadge" class="quickAccessIconWrapper"><span class="landingSprite wishlistRedIcon" aria-label="Wishlist"></span></span><div class="styles__TextColumn-sc-3oig6s-0 hpHwOV quickAccessText latoBold"><p class="styles__TitleText-sc-3oig6s-1 dHfQuv">Wishlist</p><p class="styles__SubtitleText-sc-3oig6s-2 fgLmOh">Save favourites</p></div></li><li class="makeFlex hrtlCenter quickAccessTile lhMyTrips"><span class="quickAccessIconWrapper"><span class="landingSprite myTripsIcon" data-cy="myTripsIcon" aria-hidden="true"></span></span><div class="styles__TextColumn-sc-3oig6s-0 hpHwOV quickAccessText latoBold"><p class="styles__TitleText-sc-3oig6s-1 dHfQuv">My Trips</p><p class="styles__SubtitleText-sc-3oig6s-2 fgLmOh">Manage your bookings</p></div></li><li data-cy="account" class="makeFlex hrtlCenter font12 makeRelative lhUser userLoggedOut"><div class=""><span class="userNameIcon whiteText makeFlex perfectCenter latoBlack"><span data-cy="myIconWhite" class="landingSprite myIconWhite"> <!-- -->&nbsp;</span></span></div><div class="makeFlex column flexOne whiteText latoBold font10"><p data-cy="LoginHeaderText"> <!-- -->Login or Create Account</p></div></li><li class="style__LocaleSettingsSelector-sc-1sh96gm-0 eZlSok"><span data-cy="country-lang-switcher" data-testid="country-lang-switcher" class="style__LocaleSettingsSelectorText-sc-1sh96gm-1 jxcEWU"><span countrycode="IN" class="style__FlagItem-sc-1sh96gm-3 kLakiX"></span><span class="style__CurrencyText-sc-1sh96gm-5 jySANl">INR</span> | <span class="style__LangText-sc-1sh96gm-4 etugLJ">English</span><span class="headerstyle__Arrow-sc-1fupkep-2 headerstyle__ArrowDown-sc-1fupkep-4 rYfcy bBRZdk" style="border-color: rgb(255, 255, 255); margin: 0px 2px;"></span></span></li></ul></div>
 
-  <nav class=""><ul class="makeFlex font12 headerIconsGap"><li data-cy="menu_Flights" class="menu_Flights"><span data-cy="item-wrapper"><a href="/flights/" class="headerIcons makeFlex hrtlCenter column active"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chFlights active"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Flights<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Flights<!-- --> </span></a></span></li><li data-cy="menu_Hotels" class="menu_Hotels"><span data-cy="item-wrapper"><a href="/hotels/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chHotels inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Hotels<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Hotels<!-- --> </span></a></span></li><li data-cy="menu_Homestays" class="menu_Homestays"><span data-cy="item-wrapper"><a href="/homestays/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chHomestays inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Villas &amp; Homestays<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Villas &amp; Homestays<!-- --> </span></a></span></li><li data-cy="menu_Holidays" class="menu_Holidays removeItemMargin"><span data-cy="item-wrapper"><a href="/holidays-india/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chHolidays inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Holiday Packages<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Holiday Packages<!-- --> </span></a></span></li><li data-cy="menu_Trains" class="menu_Trains"><span data-cy="item-wrapper"><a href="/railways/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chTrains inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Trains<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Trains<!-- --> </span></a></span></li><li data-cy="menu_Buses" class="menu_Buses"><span data-cy="item-wrapper"><a href="/bus-tickets/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chBuses inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Buses<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Buses<!-- --> </span></a></span></li><li data-cy="menu_Cabs" class="menu_Cabs"><span data-cy="item-wrapper"><a href="/cabs/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chCabs inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Cabs<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Cabs<!-- --> </span></a></span></li><li data-cy="menu_ToursAttractions" class="menu_ToursAttractions"><span data-cy="item-wrapper"><a href="/toursandattractions" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chToursAttractions inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Tours &amp; Attractions<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Tours &amp; Attractions<!-- --> </span></a></span><span class="font10 latoBold whiteText newTagImage">new</span></li><li data-cy="menu_Visa" class="menu_Visa"><span data-cy="item-wrapper"><a href="//visa.makemytrip.com/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chVisa inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Visa<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Visa<!-- --> </span></a></span></li><li data-cy="menu_Cruise" class="menu_Cruise"><span data-cy="item-wrapper"><a href="/cruise/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chCruise inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Cruise<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Cruise<!-- --> </span></a></span><span class="font10 latoBold whiteText newTagImage">new</span></li><li data-cy="menu_Forex" class="menu_Forex"><span data-cy="item-wrapper"><a href="/forex/" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chForex inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Forex Card &amp; Currency<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Forex Card &amp; Currency<!-- --> </span></a></span></li><li data-cy="menu_TravelInsurance" class="menu_TravelInsurance"><span data-cy="item-wrapper"><a href="https://insurance.makemytrip.com/insurance/common-landing" class="headerIcons makeFlex hrtlCenter column"><span class="headerIconWrapper"><span class="chNavIcon appendBottom2 chSprite chTravelInsurance inactive"></span></span><span class="headerIconTextAlignment chNavText darkGreyText"> <!-- -->Travel Insurance<!-- --> </span><span class="navFullTitle font10 whiteText"> <!-- -->Travel Insurance<!-- --> </span></a></span></li></ul></nav>
+<div id="top-banner" class="bgGradient home-bg">
 
-<div class="makeFlex hrtlCenter"><ul class="fswTabs latoRegular darkGreyText "><li data-cy="oneWayTrip" class="selected"><span class="tabsCircle appendRight5"></span>One Way</li><li data-cy="roundTrip" class=""><span class="tabsCircle appendRight5"></span>Round Trip</li><li data-cy="mulitiCityTrip" class=""><span class="tabsCircle appendRight5"></span>Multi City</li></ul><div class="pushRight makeFlex hrtlCenter bookingType"><p class="widgetTitle flexOne">Book&nbsp;<a href="/international-flights/" class="darkGreyText">International</a>&nbsp;and&nbsp;<a href="/flights/" class="darkGreyText">Domestic Flights</a> </p></div></div>
+  <!-- HEADER -->
+  <header id="header-container">
 
-<div class="fsw "><div class="fsw_inner returnPersuasion"><div class="flt_fsw_inputBox searchCity inactiveWidget "><label for="fromCity"><span class="lbl_input appendBottom10">From</span><input data-cy="fromCity" id="fromCity" class="fsw_inputField lineHeight36 latoBlack font30" readonly="" type="text" value="Delhi"><p class="code makeRelative" title="DEL, Delhi Airport India"><span data-cy="defaultFromValue" title="" class="truncate airPortName ">DEL, Delhi Airport India</span></p></label></div><span class="fltSwipCircle">⇌</span><div class="flt_fsw_inputBox searchToCity inactiveWidget "><label for="toCity"><span class="lbl_input appendBottom10">To</span><input data-cy="toCity" id="toCity" class="fsw_inputField lineHeight36 latoBlack font30" readonly="" type="text" value="Bengaluru"><p class="code makeRelative" title="BLR, Bengaluru International Airport India"><span data-cy="defaultToValue" title="" class="truncate airPortName ">BLR, Bengaluru International Airport India</span></p></label></div><div class="flt_fsw_inputBox dates inactiveWidget "><label for="departure"><span class="lbl_input appendBottom10">Departure</span><input data-cy="departure" id="departure" class="fsw_inputField font20" readonly="" type="text" value="Friday, 16 Jan 2026"><p data-cy="departureDate" class="blackText font20 code lineHeight36"><span class="font30 latoBlack">17 </span><span>Jan</span><span class="shortYear">26</span></p><p data-cy="departureDay" class="code ">Saturday</p></label></div><div class="flt_fsw_inputBox dates reDates inactiveWidget "><div data-cy="returnArea"><label><span class="lbl_input appendBottom10">Return</span><p data-cy="returnDefaultText" class="latoBlack font12 greyText lineHeight16">Tap to add a return date for bigger discounts</p></label></div></div><div data-cy="flightTraveller" class="flt_fsw_inputBox flightTravllers inactiveWidget "><label for="travellers"><span class="lbl_input appendBottom5">Travellers &amp; Class</span><input data-cy="travellers" id="travellers" class="fsw_inputField font30 latoBlack" readonly="" type="text" value="0 Infant, 0 Adult, 1 Children"><p data-cy="travellerText" class="blackText font20 code lineHeight36"><span class="appendRight10"><span class="font30 latoBlack">1&nbsp;</span>Traveller</span></p><p class="">Economy/Premium Economy</p></label><div class="introGBFlt"><div class="introGBFltTooltip whiteText">Save on bookings with more than 9 travellers</div></div></div></div><div class="makeFlex appendBottom20 flightFare"><div class="specialFareContainer relative hrtlCenter flexOne  makeFlex "><div class="specialFareTitle"><div class=" blackText latoBlack">SPECIAL FARES</div></div><div class="fareOptionsWrap "><div class="makeFlex gap8 hrtlCenter coachmarkContainer flexOne  "><div class="fareCardItemContainer activeList    " style="background-color: rgb(234, 245, 255); border-color: rgb(0, 140, 255);"><div class="fareCardItem "><div class=""><div class="white-space-no-wrap blackText latoBold lineHeight18 darkGreyText appendBottom3 makeFlex hrtlCenter gap4" style="color: rgb(0, 140, 255);">Regular</div><div class="white-space-no-wrap successGreen font12 lowEmphasis" style="color: rgb(117, 117, 117);">Regular fares</div></div></div></div><div class="fareCardItemContainer     " style="background-color: rgb(255, 255, 255); border-color: rgb(216, 216, 216);"><div class="fareCardItem "><div class=""><div class="white-space-no-wrap blackText latoBold lineHeight18 darkGreyText appendBottom3 makeFlex hrtlCenter gap4" style="color: rgb(74, 74, 74);">Student</div><div class="white-space-no-wrap successGreen font12 lowEmphasis" style="color: rgb(117, 117, 117);">Extra discounts/baggage</div></div><span class="searchTooltip" style="background-color: rgb(255, 255, 255);"></span></div></div><div class="fareCardItemContainer     " style="background-color: rgb(255, 255, 255); border-color: rgb(216, 216, 216);"><div class="fareCardItem "><div class=""><div class="white-space-no-wrap blackText latoBold lineHeight18 darkGreyText appendBottom3 makeFlex hrtlCenter gap4" style="color: rgb(74, 74, 74);">Armed Forces</div><div class="white-space-no-wrap successGreen font12 lowEmphasis" style="color: rgb(117, 117, 117);">Up to ₹ 600 off</div></div><span class="searchTooltip" style="background-color: rgb(255, 255, 255);"></span></div></div><div class="fareCardItemContainer     " style="background-color: rgb(255, 255, 255); border-color: rgb(216, 216, 216);"><div class="fareCardItem "><div class=""><div class="white-space-no-wrap blackText latoBold lineHeight18 darkGreyText appendBottom3 makeFlex hrtlCenter gap4" style="color: rgb(74, 74, 74);">Senior Citizen</div><div class="white-space-no-wrap successGreen font12 lowEmphasis" style="color: rgb(117, 117, 117);">Up to ₹ 600 off</div></div><span class="searchTooltip" style="background-color: rgb(255, 255, 255);"></span></div></div><div class="fareCardItemContainer     " style="background-color: rgb(255, 255, 255); border-color: rgb(216, 216, 216);"><div class="fareCardItem "><div class=""><div class="white-space-no-wrap blackText latoBold lineHeight18 darkGreyText appendBottom3 makeFlex hrtlCenter gap4" style="color: rgb(74, 74, 74);">Doctor and Nurses</div><div class="white-space-no-wrap successGreen font12 lowEmphasis" style="color: rgb(117, 117, 117);">Up to ₹ 600 off</div></div><span class="searchTooltip" style="background-color: rgb(255, 255, 255);"></span></div></div></div></div></div><div class="fisWidgetContainer"><button type="button" class="fisWidget" style="--borderColor: #d8d8d8;"><div class="fisWidgetIcon"><span class="icon24" style="background-image: url(&quot;https://imgak.mmtcdn.com/flights/assets/media/dt/common/fis_entry_point_2.webp&quot;);"></span></div><div class="fisWidgetContent"><div><font color="#000000">Flight Tracker</font></div></div><div class="fisWidgetTag"><span class="icon24" style="background-image: url(&quot;https://imgak.mmtcdn.com/flights/assets/media/mobile/gif/newTagV2.gif&quot;);"></span></div></button></div></div><div class=""><div class="addOnItem container-addOn  makeFlex spaceBetween fullWidth" role="checkbox" tabindex="0" aria-checked="false" aria-label="&lt;font color='#000000'&gt;Add Flight Delay Protection&lt;/font&gt;" style="background: linear-gradient(120deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 75%, rgb(245, 250, 255) 75%, rgb(245, 250, 255) 80%, rgb(234, 245, 255) 80%, rgb(234, 245, 255) 85%, rgb(218, 239, 252) 85%, rgb(218, 239, 252) 100%); border-color: rgb(204, 232, 255); cursor: pointer;"><div class="makeFlex gap8 selectionTitle"><div class="checkbox-wrapper appendRight8"><span class="commonCheckbox flights sizeSm primaryCheckbox "><input type="checkbox"><span class="box "><span class="check"></span></span></span></div><div class="makeFlex flexWrap"><div class="font14 latoBold"><div><font color="#000000">Add Flight Delay Protection</font></div></div><div class="font14 appendLeft5"><div><font color="#4A4A4A">Get compensation for delays of 1 hour or more</font></div> </div></div><span class="linkText font12 appendRight5"><div><font color="#008CFF">View Details</font></div></span></div><div class="icon-container"><span class="bgProperties addOnVisibilityIcon" style="background-image: url(&quot;https://imgak.mmtcdn.com/flights/assets/media/dt/review/tripDelayIcon.webp&quot;);"></span></div></div></div><p data-cy="submit" class="makeFlex vrtlCenter "><a class="primaryBtn font24 latoBold widgetSearchBtn ">Search</a></p></div>
+    <div class="top-header">
+      <a class="logo">
+        <img src="https://promos.makemytrip.com/Growth/Images/1x/mmt_dt_top_icon.png" alt="Make My Trip">
+      </a>
+
+      <ul class="top-actions">
+        <li class="action-item">
+               <i class="fa-solid fa-house"></i>
+          <p>List Your Property</p>
+          <span>Grow your business!</span>
+        </li>
+
+        <li class="action-item">
+            <i class="fa-solid fa-briefcase"></i>
+          <p>Introducing myBiz</p>
+          <span>Business Travel Solution</span>
+        </li>
+
+        <li class="action-item">
+          <i class="fa-regular fa-heart"></i>
+          <p>Wishlist</p>
+          <span>Save favourites</span>
+        </li>
+
+        <li class="action-item">
+          <i class="fa-solid fa-suitcase-rolling"></i>
+          <p>My Trips</p>
+          <span>Manage your bookings</span>
+        </li>
+
+        <li class="action-item">   <i class="fa-regular fa-user"></i>
+          <p>Login or Create Account</p>
+        </li>
+
+        <li class="locale">
+          <span>INR | English</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- NAVIGATION -->
+   <nav class="main-nav">
+  <ul class="nav-menu">
+
+    <li class="active">
+      <i class="fa-solid fa-plane"></i>
+      <span>Flights</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-hotel"></i>
+      <span>Hotels</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-house"></i>
+      <span>Villas & Homestays</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-umbrella-beach"></i>
+      <span>Holiday Packages</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-train"></i>
+      <span>Trains</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-bus"></i>
+      <span>Buses</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-taxi"></i>
+      <span>Cabs</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-map-location-dot"></i>
+      <span>Tours & Attractions</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-passport"></i>
+      <span>Visa</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-ship"></i>
+      <span>Cruise</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-credit-card"></i>
+      <span>Forex Card</span>
+    </li>
+
+    <li>
+      <i class="fa-solid fa-shield-heart"></i>
+      <span>Travel Insurance</span>
+    </li>
+
+  </ul>
+</nav>
+
+
+  </header>
+
+  <!-- SEARCH WIDGET -->
+  <section class="search-widget">
+
+    <ul class="trip-tabs">
+      <li class="selected">
+         <span class="radio"></span>One Way</li>
+      <li>
+         <span class="radio"></span>Round Trip</li>
+      <li class="">
+         
+         <span class="radio"></span>Multi City</li>
+          <span>Book International and Domestic Flights</span>
+         
+    </ul>
+  
+   
+
+    <div class="search-fields">
+
+      <div class="field">
+        <label>From</label>
+        <input type="text" value="Delhi" readonly>
+        <p>DEL, Delhi Airport India</p>
+      </div>
+
+      <div class="field">
+        <label>To</label>
+        <input type="text" value="Bengaluru" readonly>
+        <p>BLR, Bengaluru International Airport India</p>
+      </div>
+
+      <div class="field">
+        <label>Departure</label>
+        <input type="text" value="19 Jan 2026" readonly>
+        <p>Monday</p>
+      </div>
+
+      <div class="field">
+        <label>Return</label>
+        <p>Add return date for better discounts</p>
+      </div>
+
+      <div class="field">
+        <label>Travellers & Class</label>
+        <input type="text" value="1 Traveller" readonly>
+        <p>Economy</p>
+      </div>
+
+    </div>
+
+    <!-- SPECIAL FARES -->
+    <div class="special-fares">
+
+      <div class="fare-list">
+         <h2>Special Fares</h2>
+        <div class="fare active">
+          <p>Regular</p>
+          <span>Regular fares</span>
+        </div>
+
+        <div class="fare">
+          <p>Student</p>
+          <span>Extra discounts/baggage</span>
+        </div>
+
+        <div class="fare">
+          <p>Armed Forces</p>
+          <span>Up to ₹600 off</span>
+        </div>
+
+        <div class="fare">
+          <p>Senior Citizen</p>
+          <span>Up to ₹600 off</span>
+        </div>
+
+        <div class="fare">
+          <p>Doctors & Nurses</p>
+          <span>Up to ₹600 off</span>
+        </div>
+      </div>
+    </div>
+
+   <div class="delay-protection">
+  <span class="checkbox"></span>
+
+  <div class="delay-text">
+    <p>Flight Delay Protection will be added</p>
+    <span>Get compensation for delays of 1 hour or more</span>
+  </div>
+</div>
+
+
+    <!-- SEARCH BUTTON -->
+    <div class="search-btn-wrapper">
+      <button class="search-btn">Search</button>
+    </div>
+
+  </section>
+
+</div>
+
+
+
+ 
+
 
 </body>
 </html>
