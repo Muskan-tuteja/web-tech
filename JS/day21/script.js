@@ -13,9 +13,9 @@ console.log("hi")
 
 //! ways of accening in js
 
-//? Document.getElement ById()
-//? Document.getElementByClass Name()
-//? document.getElementBy TagName()
+//? Document.getElementById()
+//? Document.getElementByClassName()
+//? document.getElementByTagName()
 //? documnet.querySelector()
 //?document.querySelectorAll()
 
@@ -28,7 +28,7 @@ console.log("hi")
 // let head1 = document.getElementsByClassName("hyjio")
 // console.log(head1)
 //~document.getElementBy TagName()= it is used for targetting the html elemets based on the tagName of the html element. it return the html collection in which all the targetted elements are stored
-// let head2 = document.getElementsByClassName("h2")
+// let head2 = document.getElementsByTagName("h2")
 // console.log(head2)
 
 //~documnet.querySelector()= it is used to target the html elemnts based on the id,class and TagName,but here to especify the symbols also for the class and id.//? if we're targetting based on the className or tagName,then it returns the first maching element.it doesn't returns nodelist
