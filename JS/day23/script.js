@@ -1,8 +1,14 @@
-let heading = document.querySelector("h1")
-console.log(heading)
+// let heading = document.querySelector("h1")
+// console.log(heading)
 
 //! classList.add(): it is used for adding the class through the js.
-heading.classList.add("abc")
+// heading.classList.add("abc")
+
+let box=document.querySelector("#box")
+box.classList.add("active")
+console.log(box)
+
+
 //!classList.remove(): it is used for removing the class through the js
 
 // heading.classList.remove("abc")
@@ -16,12 +22,12 @@ heading.classList.add("abc")
  
 // }
 
-let count = 0
-function ChangeMode(){
-  count++
-  console.log("count")
-}
-function ChangeMode1(){
-  count--
-  console.log("count1")
-}
+// let count = 0
+// function ChangeMode(){
+//   count++
+//   console.log("count")
+// }
+// function ChangeMode1(){
+//   count--
+//   console.log("count1")
+// }
