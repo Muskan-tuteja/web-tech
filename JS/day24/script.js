@@ -3,6 +3,12 @@
 // event is nothing just a function
 // all the event handler have prefix with "on" keyword
 
+let btn = document.querySelector("#btn")
+btn.addEventListener("click",function(){
+console.log("btn")
+})
+
+
 //? attributes = which gives extra info. of tags
 
 // ! types of events
