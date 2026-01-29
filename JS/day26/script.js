@@ -45,8 +45,8 @@
 
 //? custom promise
 let pro = new Promise((res, rej)=>{
-    res("Promise is resolve");
-    // rej("Promise is rejected")
+    //res("Promise is resolve");
+    rej("Promise is rejected")
 });
 // console.log(pro)
 

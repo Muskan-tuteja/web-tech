@@ -24,6 +24,23 @@
 //   console.log("Promise rejected",rej)
 // })
 
+let p1 = new Promise((res,rej)=>{
+  res("Promise 1 resoloved ")
+})
+let p2 = new Promise((res,rej)=>{
+  rej("Promise2 rejected" )
+})
+let p3 = new Promise((res,rej)=>{
+  rej("Promise3 rejected" )
+})
+Promise.all([p1,p2,p3])
+.then((res)=>{
+  console.log(res)
+})
+.catch((rej)=>{
+  console.log(rej)
+})
+
 //~(2)promise.allsettled
 //this method is similar to promise.all but it waits for all the promise to settled down (either resolved/rejeced)and returns an array of object with the status of  each promise.
 // it is used when we want to ensure that all the promises are completed and we want the result of each promise wheater it is succeed or rejecteed.
@@ -70,20 +87,20 @@
 //this method takes an array of promises as input and retuns a single promise .
 // it will return the promies as soon as any 1 of the promise is either resolved or rejected
 
-let p1 = new Promise((resolve,rejected)=>{
-  resolve("Promise 1 resoloved")
-})
-let p2 = new Promise((resolve,rejected)=>{
-  rejected("Promise 212 rejected")
-})
-let p3 = new Promise((resolve,rejected)=>{
-  rejected("Promise 13 rejected")
-})
+// let p1 = new Promise((resolve,rejected)=>{
+//   resolve("Promise 1 resoloved")
+// })
+// let p2 = new Promise((resolve,rejected)=>{
+//   rejected("Promise 212 rejected")
+// })
+// let p3 = new Promise((resolve,rejected)=>{
+//   rejected("Promise 13 rejected")
+// })
 
-Promise.race([p1,p2,p3])
-.then((res)=>{
-  console.log("Promise resolved",res)
-})
-.catch((rej)=>{
-  console.log("Promise rejected",rej)
-})
+// Promise.race([p1,p2,p3])
+// .then((res)=>{
+//   console.log("Promise resolved",res)
+// })
+// .catch((rej)=>{
+//   console.log("Promise rejected",rej)
+// })
