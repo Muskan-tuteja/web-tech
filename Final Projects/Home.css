@@ -1,0 +1,32 @@
+.navbar{
+  background-color: black;
+  height: 50px;
+}
+ul{
+  color: white;
+  display: flex;
+   /* gap: 70px; */
+     justify-content: space-between;
+      padding-left: 10px;
+   
+}
+li{
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 13px;
+  font-size: 20px;
+  list-style: none;
+
+ 
+}
+button{
+  border-radius: 10px;
+  border-color: blue;
+  margin-top: 10px;
+  height: 30px;
+  width: 90px;
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+}
