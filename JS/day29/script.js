@@ -7,19 +7,19 @@
     
 // }, timeout);//1st argument=callback fn , 2nd=time in millisec.    settimeout=ek fn h
 
-setTimeout(() => {
-    setTimeout(() => {
-        setTimeout(() => {
-            setTimeout(() => {
-                setTimeout(() => {
-                    setTimeout(() => {
-                        console.log("asdfgh")
-                    }, 1000);
-                }, 1000);
-            }, 1000);
-        }, 1000);
-    }, 1000);
-}, 1000);
+// setTimeout(() => {
+//     setTimeout(() => {
+//         setTimeout(() => {
+//             setTimeout(() => {
+//                 setTimeout(() => {
+//                     setTimeout(() => {
+//                         console.log("asdfgh")
+//                     }, 1000);
+//                 }, 1000);
+//             }, 1000);
+//         }, 1000);
+//     }, 1000);
+// }, 1000);
 //called as call back hell 
 //shape=pyramid of doom
 //islko execute hone m 6sec lgynge (jaise y to humne likh rkha h agar na likhe to?? or multiple times krde to ho skta h wo task kbhi execute hhih na ho.)
@@ -88,14 +88,14 @@ setTimeout(() => {
 
 //! Date Object
 // agr js m date h chiy to we use this , date is an bbjecct
-// let d1=new Date();
-// console.log(d1)      // current date aa jygi
+let d1=new Date();
+console.log(d1)      // current date aa jygi
 
-// let d2=new Date(0);  
-// console.log(d2)     //EPOCH TIME : JAVASCRIPT BDY    //if we add any argument vse to 199 h pr pta nhi 1970 q add h
+let d2=new Date(0);  
+console.log(d2)     //EPOCH TIME : JAVASCRIPT BDY    //if we add any argument vse to 199 h pr pta nhi 1970 q add h
 
-// let d = new Date();
-// console.log(d2-d1)       //ab tk ka tym aa jyga in millisecond ki kitna time ho gya js ko bne hue
+let d = new Date();
+console.log(d2-d1)       //ab tk ka tym aa jyga in millisecond ki kitna time ho gya js ko bne hue
 
 //customized date aa jygi 
 // let d3=new Date("2026-03-22");
@@ -103,12 +103,12 @@ setTimeout(() => {
 
 
 
-// console.log(d1.getFullYear());       //only current yr aa jygi
-// console.log(d2.getMonth());          // current month aa jyga in index k (like = jan=0 , feb=1 etc)
-// console.log(d1.getHours())
-// console.log(d1.getMinutes());
-// console.log(d1.getSeconds());
-// console.log(d1.getMilliseconds());
+console.log(d1.getFullYear());       //only current yr aa jygi
+console.log(d1.getMonth());          // current month aa jyga in index k (like = jan=0 , feb=1 etc)
+console.log(d1.getHours())
+console.log(d1.getMinutes());
+console.log(d1.getSeconds());
+console.log(d1.getMilliseconds());
 
 
 //customize krne k liye(agr manually sb kuch dalna h to???) :-
@@ -185,11 +185,9 @@ setTimeout(() => {
 
 
 
-let form = document.querySelector("form")
+// let form = document.querySelector("form")
 
-    addEventListener("" , {
-
-
+//     addEventListener("" , {
 
 
 
@@ -201,6 +199,8 @@ let form = document.querySelector("form")
 
 
 
-    })
-localStorage.setItem("Id",1);
-localStorage.setItem("Ename","ABC");
+
+
+//     })
+// localStorage.setItem("Id",1);
+// localStorage.setItem("Ename","ABC");
