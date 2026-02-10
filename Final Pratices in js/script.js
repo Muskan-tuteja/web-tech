@@ -62,22 +62,32 @@
 //   console.log("fail");
 // }
 
-let day = 2;
-switch (day) {
-  case 1:
-    console.log("Monday");
+// let day = 2;
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
 
-    break;
-  case 2:
-    console.log("Tuesday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
 
-    break;
-  case 3:
-    console.log("webnesday");
+//     break;
+//   case 3:
+//     console.log("webnesday");
 
-    break;
+//     break;
 
-  default:
-    console.log("Invalida day");
+//   default:
+//     console.log("Invalida day");
     
+// }
+
+let age = 20 
+let hasId = true
+if (age>=18) {
+  if (hasId) {
+    console.log("Entry allowed")
+    
+  }
+  
 }
