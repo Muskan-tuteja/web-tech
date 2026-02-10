@@ -82,12 +82,54 @@
     
 // }
 
-let age = 20 
-let hasId = true
-if (age>=18) {
-  if (hasId) {
-    console.log("Entry allowed")
+// let age = 20 
+// let hasId = true
+// if (age>=18) {
+//   if (hasId) {
+//     console.log("Entry allowed")
     
-  }
+//   }
   
-}
+// }
+
+
+// for (let i = 1; i <=5; i++) {
+//  console.log(i);
+ 
+  
+// }
+// let i =1
+// while (i<=5) {
+//   console.log(i);
+//   i++
+  
+  
+// }
+
+// let i =1
+// do {
+//   console.log(i);
+//   i++
+  
+  
+// } while (i<=5);
+
+// function abc(){
+//   console.log("Fumction Calling")
+// }
+// abc()
+
+// function sum (a,b){
+// console.log(a+b)
+// }
+// sum(10,20)
+
+// function name(){
+//   console.log("Named Function")
+// }
+// name()
+
+let sayHi = function(){
+  console.log("Anomyous function")
+} 
+sayHi()
