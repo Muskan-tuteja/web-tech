@@ -129,7 +129,23 @@
 // }
 // name()
 
-let sayHi = function(){
-  console.log("Anomyous function")
-} 
-sayHi()
+// let sayHi = function(){
+//   console.log("Anomyous function")
+// } 
+// sayHi()
+
+// let fun =()=>{
+//   console.log("hello");
+// }
+// fun()
+// let fun =(a,b)=>{
+//   console.log(a+b);
+//   // return a+b
+// }
+// fun(1,2)
+
+function abc(a,b){
+  return a+b;
+}
+// abc(20,30)
+console.log(abc(20,30))
