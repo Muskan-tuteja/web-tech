@@ -144,8 +144,13 @@
 // }
 // fun(1,2)
 
-function abc(a,b){
+// function abc(a,b){
+//   return a+b;
+// }
+// // abc(20,30)
+// console.log(abc(20,30))
+let fn = function(a,b){
   return a+b;
 }
-// abc(20,30)
-console.log(abc(20,30))
+// fn(20,30)
+console.log(fn(20,30))
