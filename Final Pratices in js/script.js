@@ -149,8 +149,37 @@
 // }
 // // abc(20,30)
 // console.log(abc(20,30))
-let fn = function(a,b){
-  return a+b;
+// let fn = function(a,b){
+//   return a+b;
+// }
+// // fn(20,30)
+// console.log(fn(20,30))
+
+// const add = function(a,b){
+//   return a+b;
+
+// }
+// function operate(fn,x,y){
+//   return fn(x,y)
+
+// } 
+// let result = operate(add,5,10)
+// console.log(result)
+
+// function opeator(fn,a,b){
+//   return fn(a,b)
+// }
+// function multiply(x,y){
+//   return x*y
+// }
+// let result = opeator(multiply,5,10)
+// console.log(result)
+
+function hpf (a,b,cdf){
+  cdf()
 }
-// fn(20,30)
-console.log(fn(20,30))
+hpf(100,200,function(){
+  console.log("called function");
+  
+})
+
