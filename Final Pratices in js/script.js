@@ -175,11 +175,33 @@
 // let result = opeator(multiply,5,10)
 // console.log(result)
 
-function hpf (a,b,cdf){
-  cdf()
-}
-hpf(100,200,function(){
-  console.log("called function");
+// function hpf (a,b,cdf){
+//   cdf()
+// }
+// hpf(100,200,function(){
+//   console.log("called function");
   
-})
+// })
+
+// function* number(){
+//   yield 1
+//   yield 2
+//   yield 3
+//   yield 32345
+
+// }
+// const gen = number()
+// console.log(gen.next().value);
+// console.log(gen.next().value);
+// console.log(gen.next().value);
+
+function add (a){
+  return function(b){
+    return a+b
+  }
+}
+let addF = add(5)
+console.log(addF(10))
+
+
 
