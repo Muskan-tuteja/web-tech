@@ -195,13 +195,23 @@
 // console.log(gen.next().value);
 // console.log(gen.next().value);
 
-function add (a){
-  return function(b){
-    return a+b
-  }
-}
-let addF = add(5)
-console.log(addF(10))
+// function add (a){
+//   return function(b){
+//     return a+b
+//   }
+// }
+// let addF = add(5)
+// console.log(addF(10))
+
+
+let str = "Muskan,i am harsh"
+console.log(str.repeat(0))
+console.log(str.indexOf("M"))
+console.log(str.includes("i am ,"))
+console.log(str.match("m"));
+console.log(str.match("i"));
+console.log(str.search("h"));
+
 
 
 
